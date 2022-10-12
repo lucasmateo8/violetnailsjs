@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Tienda</title>
+
+    <link rel="shortcut icon" href="../multimedia/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/estilos2.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <meta name="keywords" content="uñas, esculpidas, violet, nails, uruguay">
+    <meta name="description"
+        content="Violet nails uñas esculpidas te brinda un excelente servicio y a un muy buen precio">
+</head>
+
+<body>
+
+    <body class="contenedor">
+        <section class="textos-header">
+            <h1 class="encabezado__titulo">VIOLET NAILS</h1>
+        </section>
+        <header class="encabezado">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <li><a href="../index.html" class="encabezado_menu_botones">Inicio</a></li>
+                            <li>
+                            <li> <a href="tienda.html" class="encabezado_menu_botones">Tienda</a></li>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a href="diseños.html" class="encabezado_menu_botones">Diseños</a>
+                            </li>
+
+                            <li class="nav-item">
+                            <li> <a href="precios.html" class="encabezado_menu_botones">Precios</a></li>
+                            </li>
+                            <li>
+                            <li> <a href="contacto.html" class="encabezado_menu_botones">Contacto</a></li>
+                            </li>
+                            <li>
+                            <li> <a href="acerca-de.html" class="encabezado_menu_botones">Acerca de</a></li>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section>
+                <a href="https://wa.link/kern1k" class="encabezado__iconos1" target="_blank">
+                    <img src="../multimedia/wsp.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/violet_nails05/" class="encabezado__iconos2" target="_blank">
+                    <img src="../multimedia/ig.png" alt="">
+                </a>
+            </section>
+        </header>
+        <main>
+            <section>
+                <hr class="hr">
+                <section>
+                    <div>
+                        <h1>TIENDA</h1>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                           
+                            <main id="items" class="col-sm-8 row"></main>
+                            <hr class="hr">
+                            <aside class="col-sm-4">
+
+                                <h1>CARRITO</h1>
+                             
+                                <ul id="carrito" class="list-group"></ul>
+                              
+                                
+                                <p class="text-right">Total: &dollar;<span id="total"></span></p>
+                                <button id="boton-vaciar" class="btn btn-danger">VACIAR</button>
+                                <button class= "btn btn-info  finalizar" id="finalizar" onClick="finalizarCompra()"> FINALIZAR COMPRA </button>
+                                
+                            </aside>
+                        </div>
+                    </div>
+
+        </main>
+        <footer class="footer">
+            <div>
+                <hr class="hr">
+            </div>
+            <div>
+                <ul class="footer_menu">
+                    <li><a href="../index.html" class="footer_menu_botones">Inicio</a></li>
+                    <li> <a href="tienda.html" class="footer_menu_botones">Tienda</a></li>
+                    <li><a href="diseños.html" class="footer_menu_botones">Diseños</a></li>
+                    <li> <a href="precios.html" class="footer_menu_botones">Precios</a></li>
+                    <li> <a href="contacto.html" class="footer_menu_botones">Contacto</a></li>
+                    <li> <a href="acerca-de.html" class="footer_menu_botones">Acerca de</a></li>
+                </ul>
+            </div>
+            <div class="footer_creditos">
+                <p>© 2022 Violet Nails</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="../estilosjs/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="../js/tienda.js"></script>
+    </body>
+
+</html>
+</body>
+
+</html>

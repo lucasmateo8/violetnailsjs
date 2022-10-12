@@ -1,0 +1,368 @@
+/* sintaxis css */
+/* 
+selector {  
+        propiedad: valor; 
+        propiedad 2: valor 2; 
+*/
+/* ENCABEZADO */
+/* * {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+/* html {
+    font-size: 62, 5%
+} */
+
+/* h1 {
+    color: rgb(140, 0, 255);
+    font-style: italic;
+    text-align: center;
+    font-size: 4rem;
+    margin: 50px;
+} */
+
+/* h2 {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-style: oblique;
+    font-size: xx-large;
+} */
+
+/* .encabezado {
+    grid-area: header;
+} */
+
+/* .encabezado__iconos1 {
+    position: fixed;
+    right: 50px;
+    top: 5px;
+    z-index: 0;
+} */
+
+/* .encabezado__iconos2 {
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    z-index: 0;
+} */
+
+/* .contenedor {
+    background-color: pink
+} */
+/* 
+ul {
+    list-style-type: none;
+}
+ */
+/* .encabezado__menu ul {
+    display: flex;
+    font-style: inherit;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.encabezado__menu li {
+    color: white;
+
+    background-color: blueviolet
+}
+ */
+
+/* .encabezado_menu_botones {
+    color: blueviolet;
+    padding: 5px;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+} */
+/* .navbar a{
+    color: blueviolet;
+} */
+/* .navbar img {
+    height: 45px;
+    width: 45px;
+} */
+
+
+/* BODY */
+/* .principal {
+    grid-area: main;
+}
+
+.principal_imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.principal__imagen1 {
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+}
+
+.hr {
+    margin: 20px;
+    color: blueviolet;
+    padding: 1px;
+    border-color: blueviolet;
+    background-color: blueviolet;
+}
+ */
+/* .slide {
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 65vh;
+} */
+
+/* FOOTER */
+/* .footer {
+    grid-area: footer;
+}
+
+.footer_creditos {
+    display: flex;
+    flex-direction: row;
+    color: blueviolet;
+    margin: 10px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.footer_menu_botones {
+    margin: 10px;
+    color: blueviolet;
+    text-decoration: none;
+
+} */
+
+/* DISEÑOS */
+
+/* .diseños {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.diseños_fotos {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+ */
+/* PRECIOS */
+/* .tabla {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.tabla_contenido {
+    padding: 10px;
+    border-color: blueviolet;
+    border-style: double;
+    font-style: oblique;
+    font-weight: bold;
+}
+ */
+/* CONTACTO */
+
+/* .contacto {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacto_fuente {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: blueviolet;
+    margin: 5px;
+    transform: translateY(-25px);
+} */
+
+
+
+/* .consultas {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 1, 1fr;
+    grid-template-areas:
+        "consultas formulario"
+        "consultas formulario"
+}
+
+.contactos h2 {
+    grid-area: consultas;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: formulario;
+}
+
+.btborrar {
+    transform: translate(100px, -19px);
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+ */
+/* ACERCA DE */
+
+/* .texto_sobremi {
+    color: blueviolet
+}
+
+.sobremi {
+    display: flex;
+    justify-content: center;
+    font-style: inherit;
+    font-size: x-large;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.diplomas {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.principal_dipolomas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* Tablet RD (responsive design) */
+/* @media screen and (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "header "
+            "main "
+            "footer ";
+    }
+
+    .principal h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_creditos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .consultas {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 2, 1fr;
+        grid-template-areas:
+            "consultas "
+            "formulario"
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: formulario;
+    }
+
+    .principal__imagen1 {
+        width: 600px;
+        height: 400px;
+        margin: 50px;
+    }
+}
+ */
+
+/* CELULAR RD */
+/* @media screen and (max-width: 500px) {
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "header "
+            "main "
+            "footer ";
+    }
+
+    .principal h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_creditos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .consultas {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 2, 1fr;
+        grid-template-areas:
+            "consultas "
+            "formulario"
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: formulario;
+    }
+
+    .encabezado ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .principal__imagen1 {
+        width: 400px;
+        height: 300px;
+        margin: 50px;
+    }
+} */

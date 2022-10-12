@@ -1,0 +1,48 @@
+ [
+    {
+      "id": 1,
+      "nombre": "TIPS CRYSTAL GRANDES EN CAJA X 240U - PARA SOFT GEL Y PRESS ON NAILS",
+      "imagen": "../multimedia/tips.jpeg ",
+      "precio": 900,
+      "cantidad" : 1
+    },
+  
+    {
+      "id": 2,
+      "nombre": "TORNO PROFESIONAL INALÁMBRICO DUGA D271, 30.000RPM",
+      "imagen": "../multimedia/torno.jpg",
+      "precio":  20000,
+      "cantidad" : 1
+    },
+    {
+      "id": 3,
+      "nombre": "CABINA LED 48W (SUN 2C)",
+      "imagen": " ../multimedia/cabinaled.jpg",
+      "precio":  5000,
+      "cantidad" : 1
+    },
+    {
+      "id": 4,
+      "nombre": "KIT PARA POLYGEL - CONTROL GEL IBD",
+      "imagen": " ../multimedia/kitpolygel.jpeg ",
+      "precio": 8000,
+      "cantidad" : 1
+    },
+    {
+      "id": 5,
+      "nombre": "ROLLO DE PAPEL DE ALUMINIO ULTRA GRUESO",
+
+      "imagen": " ../multimedia/kitpapelaluminio.jpeg ",
+     "precio":  500,
+     "cantidad" : 1
+    },
+    {
+      "id": 6,
+      "nombre": "BONDER - POWERBOND IBD",
+
+      "imagen": " ../multimedia/bonder.jpg",
+      "precio":  2000,
+      "cantidad" : 1
+    }
+  ]
+  

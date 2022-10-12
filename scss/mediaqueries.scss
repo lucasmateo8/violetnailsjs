@@ -1,0 +1,112 @@
+/* Tablet RD (responsive design) */
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "header "
+            "main "
+            "footer ";
+    }
+
+    .principal h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_creditos {
+        display: flex;
+        justify-content: center;
+    }
+    .consultas {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 2, 1fr;
+        grid-template-areas:
+            "consultas "
+            "formulario"
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: formulario;
+        margin: 14px;
+    }
+    .map{
+        margin: 14px;
+    }
+}
+/* CELULAR RD */
+@media screen and (max-width: 500px) {
+.contenedor {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "header "
+        "main "
+        "footer ";
+}
+
+.principal h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer_creditos {
+    display: flex;
+    justify-content: center;
+}
+
+.consultas {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 2, 1fr;
+    grid-template-areas:
+        "consultas "
+        "formulario"
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: formulario;
+    margin: 14px;
+}
+
+.map{
+    margin: 14px;
+}
+.encabezado ul {
+    display: flex;
+    flex-direction: column;
+
+}
+.texto_sobremi{
+    text-align: start;
+}
+.slide {
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+    img {
+        height: 60vh;
+        width: 0vh;
+    }
+}
+}

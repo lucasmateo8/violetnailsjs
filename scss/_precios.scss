@@ -1,0 +1,29 @@
+$colores: (
+    principal: blueviolet,
+    secundario: azure
+);
+
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    color: map-get($colores, principal );
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.3);
+        }
+
+}
+
+.tabla_contenido {
+    
+    padding: 10px;
+    border: 1px;
+    border-color:map-get($colores, principal );
+    border-style: double;
+    font-style: oblique;
+    font-weight: bold;
+    background-color:map-get($colores, secundario );
+}
